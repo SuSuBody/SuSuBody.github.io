@@ -110,11 +110,11 @@ Version: 2.6
 Architecture: iphoneos-arm64
 Maintainer: ETHN <ethanwhited2208@gmail.com>
 Depends: firmware (>= 13.0), mobilesubstrate
-Filename: ./debs/ReachPlayer-Rootless_2.6_iphoneos-arm64.deb
-Size: 117444
-MD5sum: a14798275748aa8175a421fdf7c59bef
-SHA1: 4e7614b5706afa43c75254ff39f5298fdf2dda68
-SHA256: db4ff2f1378bc44e2074c97cae1cc3e6922a59a5f17d38a68ba5b1c548d2e325
+Filename: ./com.nahtedetihw.reachplayer-rootless_2.6_iphoneos-arm64.deb
+Size: 117316
+MD5sum: 00f8cfb714558956d44413d10f4a3277
+SHA1: 93cb03ca77402d6e8c895ff941f5bd1516e82e03
+SHA256: 790a4f0941893575727121fac2939818521e533c9b9e101f2c202e74abce9e07
 Section: Tweaks
 Homepage: https://nahtedetihw.github.io
 Description: Now Playing info in Reachability Window!
@@ -123,7 +123,7 @@ Author: ETHN <ethanwhited2208@gmail.com>
 Depiction: https://nahtedetihw.github.io/depiction/web/com.nahtedetihw.reachplayer-rootless.html
 Icon: https://nahtedetihw.github.io/assets/com.nahtedetihw.reachplayer-rootless/icon.png
 Moderndepiction: https://nahtedetihw.github.io/depiction/native/com.nahtedetihw.reachplayer-rootless.json
-Name: ReachPlayer-Rootless
+Name: ReachPlayer快捷访问音乐专辑
 Sileodepiction: https://nahtedetihw.github.io/depiction/native/com.nahtedetihw.reachplayer-rootless.json
 Someotherentrytocontrol: True
 Tags: compatible_min::ios13.0, compatible_max::ios16.4
