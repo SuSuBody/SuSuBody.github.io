@@ -235,18 +235,20 @@ Sileodepiction: https://siieo.github.io/sileodepictions/CocoaTop/CocoaTop.json
 Package: xyz.susubody.replaced
 Version: 1.0
 Architecture: iphoneos-arm64
-Maintainer: CyPwn
+Maintainer: susubody
 Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: ./debs/Replaced_1.0_iphoneos-arm64.deb
-Size: 3340
-MD5sum: d751660ecdda73539a71b93bed22a561
-SHA1: e2cf55a4b676e05f2d99d4a4824a1c89d67c8e46
-SHA256: 470d5b9e77415a7cdb20aece13d4bb672e094b8a8131392f70f3d21b147fc70a
+Filename: ./Replaced_1.0_iphoneos-arm64.deb
+Size: 3328
+MD5sum: 2dccb0eb202562358596e66b87cb3eeb
+SHA1: dc5ca6b165e7356b26445778669e238525b880e9
+SHA256: f7f7b0ad371507fceff5a9e40ba281e55cdea741ad87e5fdcf248231ca7bcaa0
 Section: Tweaks
 Description: Remove the 'Unknown Part' or 'Parts and Service History' messages in the About section of the device settings for iOS 15+.
 Author: 34306
-Icon: https://nahtedetihw.github.io/assets/com.nahtedetihw.reachplayer-rootless/icon.png
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/replaced.png
 Name: Replaced
+
+
 
 Package: com.82flex.noredirect
 Version: 1.9
