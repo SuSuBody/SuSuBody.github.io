@@ -298,3 +298,19 @@ Author: level3tjg
 Depiction: https://level3tjg.me/repo/depictions/?p=com.level3tjg.sposifyfix
 Name: Sposify Fix
 
+Package: com.wrp1002.nosettingsbadge
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: Wes <wes.hamster@gmail.com>
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.wrp1002.nosettingsbadge_1.1.0_iphoneos-arm64.deb
+Size: 4386
+MD5sum: eb490f9575dac7396e9ab1a332cb7a30
+SHA1: f3d3baf3ed3a07ce5d1593e5c0a98eb1000ceb1e
+SHA256: beeb3283ed1bf25e445f6e855d9a52ce733a68cf296a58fb488ab9a0870fdb2f
+Section: Tweaks
+Description: Remove settings notification badge!
+Author: Wes <wes.hamster@gmail.com>
+Name: NoSettingsBadge
+
