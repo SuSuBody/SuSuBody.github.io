@@ -4,7 +4,7 @@ Architecture: iphoneos-arm64
 Maintainer: 来了老弟 X：h_h_x_t
 Installed-Size: 236
 Depends: mobilesubstrate
-Filename: ./微信小布丁-rootless_1.0.6-1_iphoneos-arm64.deb
+Filename: ./debs/微信小布丁-rootless_1.0.6-1_iphoneos-arm64.deb
 Size: 26264
 MD5sum: cc5c529e396c54d199284113237fbebf
 SHA1: df11afb91398793a5bead4191209c25dd828f65c
@@ -20,7 +20,7 @@ Architecture: iphoneos-arm64
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 805
 Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./连个锤子-越狱联网一键修复[iOS 10.0~16+]_1.2.2_iphoneos-arm64.deb
+Filename: ./debs/连个锤子-越狱联网一键修复[iOS 10.0~16+]_1.2.2_iphoneos-arm64.deb
 Size: 224084
 MD5sum: c74db60d013dddd4fcffcb0e745b3f87
 SHA1: 5d7bb38b005ea1f4cc09590901989f6d5f81dcd3
@@ -41,7 +41,7 @@ Version: 1.8
 Architecture: iphoneos-arm64
 Maintainer: Julio
 Depends: mobilesubstrate
-Filename: ./Spotilife_1.8_iphoneos-arm64.deb
+Filename: ./debs/Spotilife_1.8_iphoneos-arm64.deb
 Size: 104496
 MD5sum: 04fbb3ce473bf9fe2d989f31cc526b55
 SHA1: 252dc76411f2a1721bd9ec822085aa1a53ed207f
@@ -59,7 +59,7 @@ Architecture: iphoneos-arm64
 Maintainer: Maxwell Dausch & lclrc
 Installed-Size: 13476
 Depends: mobilesubstrate, org.thebigboss.libcolorpicker
-Filename: ./锁头自定义 Latchkey_2.3.2_iphoneos-arm64.deb
+Filename: ./debs/锁头自定义 Latchkey_2.3.2_iphoneos-arm64.deb
 Size: 27300
 MD5sum: 685c0a48adf74ae9368846639a1a811b
 SHA1: dbf73c434864691a1d72ec7d8e51d8f373d21365
@@ -77,7 +77,7 @@ Architecture: iphoneos-arm64
 Maintainer: liuf
 Installed-Size: 280
 Depends: mobilesubstrate
-Filename: ./修改系统键盘圆角_0.0.1_iphoneos-arm64.deb
+Filename: ./debs/修改系统键盘圆角_0.0.1_iphoneos-arm64.deb
 Size: 3760
 MD5sum: 9443065e49db413f09185e8238c08159
 SHA1: 1aed28f0e54abdb9228665045f6609e303809eaf
@@ -95,7 +95,7 @@ Architecture: iphoneos-arm64
 Maintainer: MTAC
 Installed-Size: 2848
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
-Filename: ./Lynx 2_2.5.3_iphoneos-arm64.deb
+Filename: ./debs/Lynx 2_2.5.3_iphoneos-arm64.deb
 Size: 650760
 MD5sum: 81e6652ebd62122716273e4274d4d035
 SHA1: 9a2c2afb4ec2a5fa2073bd2262e1bfe238dc7b0b
@@ -110,7 +110,7 @@ Version: 2.6
 Architecture: iphoneos-arm64
 Maintainer: ETHN <ethanwhited2208@gmail.com>
 Depends: firmware (>= 13.0), mobilesubstrate
-Filename: ./ReachPlayer-Rootless_2.6_iphoneos-arm64.deb
+Filename: ./debs/ReachPlayer-Rootless_2.6_iphoneos-arm64.deb
 Size: 117444
 MD5sum: a14798275748aa8175a421fdf7c59bef
 SHA1: 4e7614b5706afa43c75254ff39f5298fdf2dda68
@@ -135,7 +135,7 @@ Maintainer: PoomSmart
 Installed-Size: 172
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4), firmware (>= 9.0)
 Conflicts: com.yourepo.isaact1012.requirefullarm64e, com.matrix.requirefull
-Filename: ./竖横屏_1.1.3_iphoneos-arm64.deb
+Filename: ./debs/竖横屏_1.1.3_iphoneos-arm64.deb
 Size: 4608
 MD5sum: 4b3849a2037dd328ac3bd358b98542fb
 SHA1: 7994578bb4ccea88a3f07e5bae3129ec833de881
@@ -152,7 +152,7 @@ Maintainer: PoomSmart
 Installed-Size: 168
 Depends: mobilesubstrate, firmware (>= 6.0)
 Conflicts: org.thebigboss.smoothcursor
-Filename: ./SmoothCursor (iOS 13+)_0.0.1_iphoneos-arm64.deb
+Filename: ./debs/SmoothCursor (iOS 13+)_0.0.1_iphoneos-arm64.deb
 Size: 3096
 MD5sum: 9a229449ff6ebeee3edd401b7b69512f
 SHA1: 176011f5b4f8c9321d03745f241c0323c2e0b622
@@ -168,7 +168,7 @@ Architecture: iphoneos-arm64
 Maintainer: Mr.Zhang <mr_zhang_00@163.com>
 Installed-Size: 164
 Depends: com.opa334.ccsupport
-Filename: ./CCRespring_1.1.0-2_iphoneos-arm64.deb
+Filename: ./debs/CCRespring_1.1.0-2_iphoneos-arm64.deb
 Size: 13108
 MD5sum: 8e565ee66eaebac3ac50029105051332
 SHA1: 9c9baef93d97cda66e12a82203c3d4e28fbc5927
@@ -188,7 +188,7 @@ Architecture: iphoneos-arm64
 Maintainer: Spark
 Installed-Size: 992
 Depends: com.spark.snowboard
-Filename: ./SnowBoard_1.1.0~Beta4-rootless_iphoneos-arm64.deb
+Filename: ./debs/SnowBoard_1.1.0~Beta4-rootless_iphoneos-arm64.deb
 Size: 608236
 MD5sum: 81811a15df2ed5381ad23991cec5545c
 SHA1: fe6dc163e99687917d61367afd49140cffaa2742
@@ -204,7 +204,7 @@ Architecture: iphoneos-arm64
 Maintainer: aesthyrica
 Installed-Size: 464
 Depends: mobilesubstrate
-Filename: ./Sposify_8.5.52_iphoneos-arm64.deb
+Filename: ./debs/Sposify_8.5.52_iphoneos-arm64.deb
 Size: 68552
 MD5sum: 0cb70d0fb3eb97f7b3c5c3c0f9611abf
 SHA1: fbcd991eedb53dd20b92ba13d2d94699437e9943
@@ -221,7 +221,7 @@ Architecture: iphoneos-arm64
 Maintainer: sunshinesong
 Installed-Size: 5484
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader, com.opa334.altlist
-Filename: ./split-view-pro_1.4.0_iphoneos-arm64.deb
+Filename: ./debs/split-view-pro_1.4.0_iphoneos-arm64.deb
 Size: 1579060
 MD5sum: a4c9561e5c45a46b9802ddba4ae1c473
 SHA1: 4673d0b42e4eb1cc1f7c642f56a77bdb4ba21a8a
@@ -237,7 +237,7 @@ Version: 0.0.1
 Architecture: iphoneos-arm64
 Maintainer: ash <krylov0@outlook.com>
 Depends: mobilesubstrate
-Filename: ./Fix Repair System Power_0.0.1_iphoneos-arm64.deb
+Filename: ./debs/Fix Repair System Power_0.0.1_iphoneos-arm64.deb
 Size: 4588
 MD5sum: b6ac2190a0d9565f07cfbe8013912f54
 SHA1: eb07a5ed2a6e8bfa3ae468e7da58f2b7561aa175
@@ -253,7 +253,7 @@ Architecture: iphoneos-arm64
 Maintainer: Hitori
 Depends: firmware (>= 15.0)
 Conflicts: ru.domo.cocoatop
-Filename: ./CocoaTop64_2.2.4_iphoneos-arm64.deb
+Filename: ./debs/CocoaTop64_2.2.4_iphoneos-arm64.deb
 Size: 233948
 MD5sum: 008f16602fd2eb31da991e3b9ed586ae
 SHA1: a970248298bbb1bf910f0212866a3318b823763b
@@ -270,7 +270,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: CyPwn
 Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: ./Replaced_1.0_iphoneos-arm64.deb
+Filename: ./debs/Replaced_1.0_iphoneos-arm64.deb
 Size: 3340
 MD5sum: bef4a487458e62d2d0df0bdb9ccbfa10
 SHA1: cdbd112d52de855b6f5461e457d2ba0eacb8e0c7
