@@ -1,0 +1,285 @@
+Package: cn.llld.wxx
+Version: 1.0.6-1
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 236
+Depends: mobilesubstrate
+Filename: ./微信小布丁-rootless_1.0.6-1_iphoneos-arm64.deb
+Size: 26264
+MD5sum: cc5c529e396c54d199284113237fbebf
+SHA1: df11afb91398793a5bead4191209c25dd828f65c
+SHA256: 3bf7ad3a56de49497a99ecc44c66321b42fc97d8debd422c586a5f7a88805f97
+Section: rootless应用插件
+Description: 微信小布丁1.0.6-1版本，可注入可越狱使用。自定义气泡，模拟iPad登录，开启callkit通话，开启消息防撤回，最全屏蔽公众号文章广告，屏蔽订阅号列表广告（可自定义关注视频和直播中订阅号），屏蔽朋友圈广告，屏蔽越狱检测状态,快速跳小程序广告，自定义步数，后台模糊，界面透明等功能。不整大杂烩，只更用的到。***长按主页，订阅号的'搜索栏'1秒控件或任意聊天窗口中的'时间'，都可以弹出设置***,8.0.31---33版本专供，高版本仅用部分功能（我自用是8.0.31，没适配高版本）
+Author: 来了老弟 X：h_h_x_t
+Name: 微信小布丁-rootless
+
+Package: cn.tinyapps.renet
+Version: 1.2.2
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 805
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./连个锤子-越狱联网一键修复[iOS 10.0~16+]_1.2.2_iphoneos-arm64.deb
+Size: 224084
+MD5sum: c74db60d013dddd4fcffcb0e745b3f87
+SHA1: 5d7bb38b005ea1f4cc09590901989f6d5f81dcd3
+SHA256: 4c06285621f00cce670179fef83f844bb636dc81aa91b2b0b5788b04889f59ff
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=renetDp
+Description: 修复越狱后Cydia、Sileo等各种软件无法联网的问题
+Tag: purpose::extension
+Author: Tinyapps <tinyapps@qq.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=renetDp
+Dev: tinyapps
+Icon: file:///var/jb/Applications/Renet.app/AppIcon20x20@3x.png
+Name: 连个锤子-越狱联网一键修复[iOS 10.0~16+]
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.julioverne.spotilife
+Version: 1.8
+Architecture: iphoneos-arm64
+Maintainer: Julio
+Depends: mobilesubstrate
+Filename: ./Spotilife_1.8_iphoneos-arm64.deb
+Size: 104496
+MD5sum: 04fbb3ce473bf9fe2d989f31cc526b55
+SHA1: 252dc76411f2a1721bd9ec822085aa1a53ed207f
+SHA256: 32bb38803a2da3c4a6134397bfd9dcc423ddb425e00c16d5ee5ff5bac0be44a8
+Section: Tweaks
+Homepage: https://twitter.com/ijulioverne
+Description: Spotify Unlimited Skips, Remove ADs, Extreme Quality Stream Unlocked... Requires Spotify App (AppStore)
+Author: julioverne
+Depiction: https://julio.hackyouriphone.org/description.html?id=com.julioverne.spotilife
+Name: Spotilife
+
+Package: com.lclrc.mdaus.latchkey
+Version: 2.3.2
+Architecture: iphoneos-arm64
+Maintainer: Maxwell Dausch & lclrc
+Installed-Size: 13476
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: ./锁头自定义 Latchkey_2.3.2_iphoneos-arm64.deb
+Size: 27300
+MD5sum: 685c0a48adf74ae9368846639a1a811b
+SHA1: dbf73c434864691a1d72ec7d8e51d8f373d21365
+SHA256: cf6f3947f9ce0a768597a00f7e9711b03f8212ed54765a81bfb9bfdfaa070a1c
+Section: Tweaks
+Description: 自定义锁头图标和位置。适配多巴胺，增加汉化，需要libcolorpicker依赖(p2kdev源里有)。Move and theme the Face-ID lock glyph
+Author: Maxwell Dausch <max.dausch@gmail.com>
+Depiction: https://repo.daus.ch/depictions/?p=ch.mdaus.latchkey
+Name: 锁头自定义 Latchkey
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.mdaus.latchkey/depiction.json
+
+Package: com.liuf.jpyj
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: liuf
+Installed-Size: 280
+Depends: mobilesubstrate
+Filename: ./修改系统键盘圆角_0.0.1_iphoneos-arm64.deb
+Size: 3760
+MD5sum: 9443065e49db413f09185e8238c08159
+SHA1: 1aed28f0e54abdb9228665045f6609e303809eaf
+SHA256: d9b36b215521083f9694312d1cca5646cf19980216eadb859e9dc96b5089ff8a
+Section: Tweaks
+Description: 修改系统键盘圆角 Modify the keyboard icon to have rounded corners.
+Author: liuf
+Icon: https://TrollStoreX.Github.io/sileodepiction/keyboard/icon.png
+Name: 修改系统键盘圆角
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/keyboard/js.json
+
+Package: com.mtac.lynxtwo
+Version: 2.5.3
+Architecture: iphoneos-arm64
+Maintainer: MTAC
+Installed-Size: 2848
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: ./Lynx 2_2.5.3_iphoneos-arm64.deb
+Size: 650760
+MD5sum: 81e6652ebd62122716273e4274d4d035
+SHA1: 9a2c2afb4ec2a5fa2073bd2262e1bfe238dc7b0b
+SHA256: bfafb8b3eafd70922990f72e9a96a1ed3ab6b1af6f0c78b7e50ef78f28884012
+Section: Tweaks
+Description: Ultimate iDevice Customization for iOS 14, 15 & 16
+Author: MTAC
+Name: Lynx 2
+
+Package: com.nahtedetihw.reachplayer-rootless
+Version: 2.6
+Architecture: iphoneos-arm64
+Maintainer: ETHN <ethanwhited2208@gmail.com>
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./ReachPlayer-Rootless_2.6_iphoneos-arm64.deb
+Size: 117444
+MD5sum: a14798275748aa8175a421fdf7c59bef
+SHA1: 4e7614b5706afa43c75254ff39f5298fdf2dda68
+SHA256: db4ff2f1378bc44e2074c97cae1cc3e6922a59a5f17d38a68ba5b1c548d2e325
+Section: Tweaks
+Homepage: https://nahtedetihw.github.io
+Description: Now Playing info in Reachability Window!
+Tag: role::enduser
+Author: ETHN <ethanwhited2208@gmail.com>
+Depiction: https://nahtedetihw.github.io/depiction/web/com.nahtedetihw.reachplayer-rootless.html
+Icon: https://nahtedetihw.github.io/assets/com.nahtedetihw.reachplayer-rootless/icon.png
+Moderndepiction: https://nahtedetihw.github.io/depiction/native/com.nahtedetihw.reachplayer-rootless.json
+Name: ReachPlayer-Rootless
+Sileodepiction: https://nahtedetihw.github.io/depiction/native/com.nahtedetihw.reachplayer-rootless.json
+Someotherentrytocontrol: True
+Tags: compatible_min::ios13.0, compatible_max::ios16.4
+
+Package: com.ps.apppad.lans233
+Version: 1.1.3
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 172
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4), firmware (>= 9.0)
+Conflicts: com.yourepo.isaact1012.requirefullarm64e, com.matrix.requirefull
+Filename: ./竖横屏_1.1.3_iphoneos-arm64.deb
+Size: 4608
+MD5sum: 4b3849a2037dd328ac3bd358b98542fb
+SHA1: 7994578bb4ccea88a3f07e5bae3129ec833de881
+SHA256: 3257510618d566dd8e1461c26c02e7a8b7412abd8e8767c8d9390c5965ee917a
+Section: Tweaks
+Description: 在ipad上任意应用强制全屏/强制竖横屏
+Author: PoomSmart
+Name: AppPad平板应用强制全屏/竖横屏
+
+Package: com.ps.smoothcursorios13
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 6.0)
+Conflicts: org.thebigboss.smoothcursor
+Filename: ./SmoothCursor (iOS 13+)_0.0.1_iphoneos-arm64.deb
+Size: 3096
+MD5sum: 9a229449ff6ebeee3edd401b7b69512f
+SHA1: 176011f5b4f8c9321d03745f241c0323c2e0b622
+SHA256: b75df0b8da4e06922d1a48fdeb4d91c17ebd83fc0c53fb5554038fabbf6726b9
+Section: Tweaks
+Description: Office 2013-styled cursor animation.
+Author: PoomSmart
+Name: SmoothCursor (iOS 13+)
+
+Package: com.skypain.ccrespring
+Version: 1.1.0-2
+Architecture: iphoneos-arm64
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 164
+Depends: com.opa334.ccsupport
+Filename: ./CCRespring_1.1.0-2_iphoneos-arm64.deb
+Size: 13108
+MD5sum: 8e565ee66eaebac3ac50029105051332
+SHA1: 9c9baef93d97cda66e12a82203c3d4e28fbc5927
+SHA256: ef6dbb78fe8036f613b9365ddfacdc29ff95da523e91706f145d93bef0aa5b32
+Section: Control Center (Modules)
+Homepage: https://skypain.github.io/repo/
+Description: 控制中心注销模块
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Depiction: https://skypain.github.io/repo/static/view/?p=ccrespring
+Icon: https://skypain.github.io/repo/src/ccrespring/Icon.png
+Name: CCRespring
+Sileodepiction: https://skypain.github.io/repo/src/ccrespring/config/sileo/depiction.json
+
+Package: com.spark.snowboardapplication
+Version: 1.1.0~Beta4-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 992
+Depends: com.spark.snowboard
+Filename: ./SnowBoard_1.1.0~Beta4-rootless_iphoneos-arm64.deb
+Size: 608236
+MD5sum: 81811a15df2ed5381ad23991cec5545c
+SHA1: fe6dc163e99687917d61367afd49140cffaa2742
+SHA256: 70b6023a437403faed66fe5bd537ab87e7375b6df67b7670c3e5e1f116240b3d
+Section: Utilities
+Description: An awesome application!
+Author: Spark
+Name: SnowBoard
+
+Package: com.spos
+Version: 8.5.52
+Architecture: iphoneos-arm64
+Maintainer: aesthyrica
+Installed-Size: 464
+Depends: mobilesubstrate
+Filename: ./Sposify_8.5.52_iphoneos-arm64.deb
+Size: 68552
+MD5sum: 0cb70d0fb3eb97f7b3c5c3c0f9611abf
+SHA1: fbcd991eedb53dd20b92ba13d2d94699437e9943
+SHA256: f4892b2f1340487da985b983317dcbe700fe0f908b194e6f4b4b4c99d66f9571
+Section: Tweaks
+Description: Sposify is a tweak which adds various enhancements to the Spotify application on iOS
+Author: aesthyrica
+Depiction: https://aesthyrica.com/repo/package/com.sposify.client.html
+Name: Sposify
+
+Package: com.sunshinesong.split-view-pro
+Version: 1.4.0
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 5484
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Filename: ./split-view-pro_1.4.0_iphoneos-arm64.deb
+Size: 1579060
+MD5sum: a4c9561e5c45a46b9802ddba4ae1c473
+SHA1: 4673d0b42e4eb1cc1f7c642f56a77bdb4ba21a8a
+SHA256: 72e505caa9229d866e779daccd12d51561bc51ccc605e0e3a24afc1c28a0dd64
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: sunshinesong
+Name: split-view-pro
+Ts: sp-sss
+
+Package: com.yourepo.0xash.fixrepairsystempower
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: ash <krylov0@outlook.com>
+Depends: mobilesubstrate
+Filename: ./Fix Repair System Power_0.0.1_iphoneos-arm64.deb
+Size: 4588
+MD5sum: b6ac2190a0d9565f07cfbe8013912f54
+SHA1: eb07a5ed2a6e8bfa3ae468e7da58f2b7561aa175
+SHA256: a416d8ce2145a06a7faab7779587204930d9360740a1566f5a5fbfe46a083aa4
+Section: System
+Description: CPU Battery Saver Battery Connected State Not Change Remove Monitored Regions Don't Use Background Location Services No Update WiFi State Remove Pretending To Search In Telephony Manager No Has Results From Wifi Scan Disable Wifi Charger Queue Has Cellular Telephony Private Location Apps Not Using Location With Details Remove Animations Remove Animations Fake Service If Unnecessary Don't Scan For Updates Remove Check Time Zone Time Zone (Fixed) AdBlock - Block Some iAds No Automatic Sync Hidden iAds Device
+Author: ash <krylov0@outlook.com>
+Name: Fix Repair System Power
+
+Package: ru.domo.cocoatop64
+Version: 2.2.4
+Architecture: iphoneos-arm64
+Maintainer: Hitori
+Depends: firmware (>= 15.0)
+Conflicts: ru.domo.cocoatop
+Filename: ./CocoaTop64_2.2.4_iphoneos-arm64.deb
+Size: 233948
+MD5sum: 008f16602fd2eb31da991e3b9ed586ae
+SHA1: a970248298bbb1bf910f0212866a3318b823763b
+SHA256: a80361ec0464baa52f88a8cfc1b1b1e05c7cdc183570b651e6855c010efa358c
+Section: Utilities
+Description: Process Viewer for iOS
+Author: Domo <domo@rambler.ru>
+Icon: https://siieo.github.io/sileodepictions/CocoaTop/icon.png
+Name: CocoaTop64
+Sileodepiction: https://siieo.github.io/sileodepictions/CocoaTop/CocoaTop.json
+
+Package: xyz.cypwn.replaced
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./Replaced_1.0_iphoneos-arm64.deb
+Size: 3340
+MD5sum: bef4a487458e62d2d0df0bdb9ccbfa10
+SHA1: cdbd112d52de855b6f5461e457d2ba0eacb8e0c7
+SHA256: 9ad2f30f4d5cfeb07f9c4ed7c28ad1303001d4990ffe662b6d8b142cce18edcd
+Section: Tweaks
+Description: Remove the 'Unknown Part' or 'Parts and Service History' messages in the About section of the device settings for iOS 15+.
+Author: 34306
+Depiction: https://repo.cypwn.xyz/depiction/2207
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/replaced.png
+Name: Replaced
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2207
+
