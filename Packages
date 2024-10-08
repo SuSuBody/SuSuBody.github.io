@@ -237,7 +237,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: susubody
 Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: ./Replaced_1.0_iphoneos-arm64.deb
+Filename: ./debs/Replaced_1.0_iphoneos-arm64.deb
 Size: 3328
 MD5sum: 2dccb0eb202562358596e66b87cb3eeb
 SHA1: dc5ca6b165e7356b26445778669e238525b880e9
