@@ -266,3 +266,20 @@ Description: Stop specified apps from redirecting to App Store, Safari or other 
 Author: Lessica <82flex@gmail.com>
 Name: No Redirect
 
+Package: com.classickeyboardxs-susubody
+Version: 1.1-8
+Architecture: iphoneos-arm64
+Maintainer: 苏苏
+Installed-Size: 1060
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.classickeyboardxs-susubody_1.1-8_iphoneos-arm64.deb
+Size: 233540
+MD5sum: 2b27f0a23f009bff470d594013871499
+SHA1: 77dceab179a00cb9375a29208f2849377ea3930c
+SHA256: a16a6aac8e865d3f6376aa8a6c438f8b688815465f5f93d7f9f045ab54792479
+Section: 系统
+Description: 自定义键盘底部高度，地球底部高度等
+Author: Netskao
+Name: classickeyboardxs
+Sponsor: 苏苏
+
