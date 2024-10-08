@@ -128,18 +128,18 @@ Sileodepiction: https://nahtedetihw.github.io/depiction/native/com.nahtedetihw.r
 Someotherentrytocontrol: True
 Tags: compatible_min::ios13.0, compatible_max::ios16.4
 
-Package: com.ps.apppad.lans233
+Package: com.ps.apppad.susu
 Version: 1.1.3
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 172
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4), firmware (>= 9.0)
 Conflicts: com.yourepo.isaact1012.requirefullarm64e, com.matrix.requirefull
-Filename: ./debs/竖横屏_1.1.3_iphoneos-arm64.deb
-Size: 4608
-MD5sum: 4b3849a2037dd328ac3bd358b98542fb
-SHA1: 7994578bb4ccea88a3f07e5bae3129ec833de881
-SHA256: 3257510618d566dd8e1461c26c02e7a8b7412abd8e8767c8d9390c5965ee917a
+Filename: ./debs/Apppad_1.1.3_iphoneos-arm64.deb
+Size: 6552
+MD5sum: 7baa6768e8d8c5efbeb13653ea901b30
+SHA1: ea507340e3aece191b378baa3de43ef3ce4f2f03
+SHA256: fb260b1a3f4cf168f5d1210deb572c458b198f73d4a49fbbf5913b9b35fa8cf0
 Section: Tweaks
 Description: 在ipad上任意应用强制全屏/强制竖横屏
 Author: PoomSmart
@@ -232,23 +232,21 @@ Icon: https://siieo.github.io/sileodepictions/CocoaTop/icon.png
 Name: CocoaTop64
 Sileodepiction: https://siieo.github.io/sileodepictions/CocoaTop/CocoaTop.json
 
-Package: xyz.cypwn.replaced
+Package: xyz.susubody.replaced
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: CyPwn
 Depends: mobilesubstrate, firmware (>= 15.0)
 Filename: ./debs/Replaced_1.0_iphoneos-arm64.deb
 Size: 3340
-MD5sum: bef4a487458e62d2d0df0bdb9ccbfa10
-SHA1: cdbd112d52de855b6f5461e457d2ba0eacb8e0c7
-SHA256: 9ad2f30f4d5cfeb07f9c4ed7c28ad1303001d4990ffe662b6d8b142cce18edcd
+MD5sum: d751660ecdda73539a71b93bed22a561
+SHA1: e2cf55a4b676e05f2d99d4a4824a1c89d67c8e46
+SHA256: 470d5b9e77415a7cdb20aece13d4bb672e094b8a8131392f70f3d21b147fc70a
 Section: Tweaks
 Description: Remove the 'Unknown Part' or 'Parts and Service History' messages in the About section of the device settings for iOS 15+.
 Author: 34306
-Depiction: https://repo.cypwn.xyz/depiction/2207
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/replaced.png
+Icon: https://nahtedetihw.github.io/assets/com.nahtedetihw.reachplayer-rootless/icon.png
 Name: Replaced
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2207
 
 Package: com.82flex.noredirect
 Version: 1.9
@@ -282,4 +280,21 @@ Description: 自定义键盘底部高度，地球底部高度等
 Author: Netskao
 Name: classickeyboardxs
 Sponsor: 苏苏
+
+Package: com.level3tjg.sposifyfix
+Version: 0.0.6
+Architecture: iphoneos-arm64
+Maintainer: level3tjg
+Installed-Size: 188
+Depends: mobilesubstrate (>= 0.9.5000), com.spos
+Filename: ./debs/Sposify Fix_0.0.6_iphoneos-arm64.deb
+Size: 15456
+MD5sum: c931572582e7c30447783309dc73ff42
+SHA1: c715da980070f6e976b67794fcc4872b48b9dcc8
+SHA256: 43ec8caabb11a7377b682655c8311e43eab3e871211c7f3f9c6cebac11b8ac76
+Section: Tweaks
+Description: Fix for Sposify for Spotify v8.6.30
+Author: level3tjg
+Depiction: https://level3tjg.me/repo/depictions/?p=com.level3tjg.sposifyfix
+Name: Sposify Fix
 
