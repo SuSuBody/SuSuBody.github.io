@@ -298,19 +298,3 @@ Author: level3tjg
 Depiction: https://level3tjg.me/repo/depictions/?p=com.level3tjg.sposifyfix
 Name: Sposify Fix
 
-Package: com.susubody.safarix
-Version: 1.5.3
-Architecture: iphoneos-arm64
-Maintainer: 0xkuj
-Installed-Size: 744
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: ./debs/com.susubody.safarix_1.5.3_iphoneos-arm64.deb
-Size: 272860
-MD5sum: 1f103764a723bafdcf7f17f10d5a3546
-SHA1: c808f4c18d4620123feb7a733096a454ffcfe76d
-SHA256: 987d959f4dc277172755f80276b8d99e6f3a76e9915085ca54d282c87260cd11
-Section: Tweaks
-Description: Safari Essential Features
-Author: 0xkuj
-Name: SafariX汉化版
-
