@@ -199,23 +199,6 @@ Author: aesthyrica
 Depiction: https://aesthyrica.com/repo/package/com.sposify.client.html
 Name: Sposify
 
-Package: com.sunshinesong.split-view-pro
-Version: 1.4.0
-Architecture: iphoneos-arm64
-Maintainer: sunshinesong
-Installed-Size: 5484
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader, com.opa334.altlist
-Filename: ./debs/split-view-pro_1.4.0_iphoneos-arm64.deb
-Size: 1579060
-MD5sum: a4c9561e5c45a46b9802ddba4ae1c473
-SHA1: 4673d0b42e4eb1cc1f7c642f56a77bdb4ba21a8a
-SHA256: 72e505caa9229d866e779daccd12d51561bc51ccc605e0e3a24afc1c28a0dd64
-Section: Tweaks
-Description: 分屏，不必太复杂，一切从简即可。
-Author: sunshinesong
-Name: split-view-pro
-Ts: sp-sss
-
 Package: com.yourepo.0xash.fixrepairsystempower
 Version: 0.0.1
 Architecture: iphoneos-arm64
