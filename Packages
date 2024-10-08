@@ -320,12 +320,14 @@ Architecture: iphoneos-arm64
 Maintainer: Brend0n
 Installed-Size: 712
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: ./debs/FPS游戏帧率显示.deb
-Size: 147620
-MD5sum: 51cdd26e530c37674f3be609dd631f01
-SHA1: d1e16faccf279f4e3e8ed8bcbb9d0f06355f6a0d
-SHA256: c53d6e3bcabc1fac8beffd1a07c50517ca0f0fe99aee01be8f7857526f924f17
+Filename: ./debs/FPS帧率显示.deb
+Size: 150456
+MD5sum: 397afe0fd8b7239e0430583eec571aa3
+SHA1: 0e6c4b339dca916a5f140f25ba53736d8700da78
+SHA256: 197feeffb5bc199e5206d7d3c423b39054e94e5f99b19c1f58269a045bcb70cc
 Section: 应用调整
 Author: Brend0n
 Name: FPS帧率显示
+
+
 
