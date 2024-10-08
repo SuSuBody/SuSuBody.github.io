@@ -250,3 +250,19 @@ Icon: https://repo.cypwn.xyz/assets/repo/Featured/replaced.png
 Name: Replaced
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2207
 
+Package: com.82flex.noredirect
+Version: 1.9
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 576
+Depends: firmware (>= 14.0), mobilesubstrate, com.opa334.altlist, com.opa334.libsandy
+Filename: ./debs/No Redirect_1.9_iphoneos-arm64.deb
+Size: 53956
+MD5sum: c70bba2937ee1ef1ba87964db4ec4a9b
+SHA1: f49990d1e8f8eedf39563c83fa10c5c85bd9684b
+SHA256: 070172fe65f9280df467d0d67ad310a8375047b83fa381b16de8021c198b3bd6
+Section: Tweaks
+Description: Stop specified apps from redirecting to App Store, Safari or other apps.
+Author: Lessica <82flex@gmail.com>
+Name: No Redirect
+
