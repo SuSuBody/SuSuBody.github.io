@@ -182,22 +182,6 @@ Icon: https://skypain.github.io/repo/src/ccrespring/Icon.png
 Name: CCRespring
 Sileodepiction: https://skypain.github.io/repo/src/ccrespring/config/sileo/depiction.json
 
-Package: com.spark.snowboardapplication
-Version: 1.1.0~Beta4-rootless
-Architecture: iphoneos-arm64
-Maintainer: Spark
-Installed-Size: 992
-Depends: com.spark.snowboard
-Filename: ./debs/SnowBoard_1.1.0~Beta4-rootless_iphoneos-arm64.deb
-Size: 608236
-MD5sum: 81811a15df2ed5381ad23991cec5545c
-SHA1: fe6dc163e99687917d61367afd49140cffaa2742
-SHA256: 70b6023a437403faed66fe5bd537ab87e7375b6df67b7670c3e5e1f116240b3d
-Section: Utilities
-Description: An awesome application!
-Author: Spark
-Name: SnowBoard
-
 Package: com.spos
 Version: 8.5.52
 Architecture: iphoneos-arm64
