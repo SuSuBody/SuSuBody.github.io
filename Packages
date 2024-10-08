@@ -53,23 +53,21 @@ Author: julioverne
 Depiction: https://julio.hackyouriphone.org/description.html?id=com.julioverne.spotilife
 Name: Spotilife
 
-Package: com.lclrc.mdaus.latchkey
+Package: com.susubody.latchkey
 Version: 2.3.2
 Architecture: iphoneos-arm64
-Maintainer: Maxwell Dausch & lclrc
+Maintainer: Maxwell Dausch
 Installed-Size: 13476
 Depends: mobilesubstrate, org.thebigboss.libcolorpicker
-Filename: ./debs/锁头自定义 Latchkey_2.3.2_iphoneos-arm64.deb
-Size: 27300
-MD5sum: 685c0a48adf74ae9368846639a1a811b
-SHA1: dbf73c434864691a1d72ec7d8e51d8f373d21365
-SHA256: cf6f3947f9ce0a768597a00f7e9711b03f8212ed54765a81bfb9bfdfaa070a1c
+Filename: ./debs/com.susubody.latchkey_2.3.2_iphoneos-arm64.deb
+Size: 423248
+MD5sum: 9f0a9d695da6b280b3ba8d246a8a53ef
+SHA1: 262c566dbe004c5c792084acfb9ff55d1413344d
+SHA256: 95f5954c5d9112e45a0dff07e9b3d33ac114fb2c94f61b719d279675722baee1
 Section: Tweaks
-Description: 自定义锁头图标和位置。适配多巴胺，增加汉化，需要libcolorpicker依赖(p2kdev源里有)。Move and theme the Face-ID lock glyph
-Author: Maxwell Dausch <max.dausch@gmail.com>
-Depiction: https://repo.daus.ch/depictions/?p=ch.mdaus.latchkey
-Name: 锁头自定义 Latchkey
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.mdaus.latchkey/depiction.json
+Description: 自定义锁头图标和位置。适配多巴胺，增加汉化，需要libcolorpicker依赖(p2kdev源里有)
+Author: Maxwell Dausch
+Name: Latchkey
 
 Package: com.liuf.jpyj
 Version: 0.0.1
