@@ -369,4 +369,18 @@ Icon: https://TrollStoreX.Github.io/sileodepiction/iCleanerPro/icon.png
 Name: iCleaner Pro
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/iCleanerPro/js.json
 
+Package: com.susubody.themes
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: SuSuBody
+Filename: ./debs/com.susubody.themes_1.0.1_iphoneos-arm64.deb
+Size: 3985468
+MD5sum: 0fbc47481471111842cdb888279e4a8c
+SHA1: 751abceef07f4b0e997286f84bdf2a92a6b2a9fe
+SHA256: ae9dfa078dffebc4ad81c7ba16e0011302034027a9ac9f5687d355cbad327c25
+Section: Themes
+Description: 主题备份
+Author: SuSuBody
+Name: 苏苏主题备份
+
 
