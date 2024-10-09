@@ -1,40 +1,75 @@
-Package: cn.llld.wxx
-Version: 1.0.6-1
+Package: com.82flex.noredirect
+Version: 1.9
 Architecture: iphoneos-arm64
-Maintainer: 来了老弟 X：h_h_x_t
-Installed-Size: 236
-Depends: mobilesubstrate
-Filename: ./debs/微信小布丁-rootless_1.0.6-1_iphoneos-arm64.deb
-Size: 26264
-MD5sum: cc5c529e396c54d199284113237fbebf
-SHA1: df11afb91398793a5bead4191209c25dd828f65c
-SHA256: 3bf7ad3a56de49497a99ecc44c66321b42fc97d8debd422c586a5f7a88805f97
-Section: rootless应用插件
-Description: 微信小布丁1.0.6-1版本，可注入可越狱使用。自定义气泡，模拟iPad登录，开启callkit通话，开启消息防撤回，最全屏蔽公众号文章广告，屏蔽订阅号列表广告（可自定义关注视频和直播中订阅号），屏蔽朋友圈广告，屏蔽越狱检测状态,快速跳小程序广告，自定义步数，后台模糊，界面透明等功能。不整大杂烩，只更用的到。***长按主页，订阅号的'搜索栏'1秒控件或任意聊天窗口中的'时间'，都可以弹出设置***,8.0.31---33版本专供，高版本仅用部分功能（我自用是8.0.31，没适配高版本）
-Author: 来了老弟 X：h_h_x_t
-Name: 微信小布丁-rootless
-
-Package: cn.tinyapps.renet
-Version: 1.2.2
-Architecture: iphoneos-arm64
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 805
-Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/连个锤子-越狱联网一键修复[iOS 10.0~16+]_1.2.2_iphoneos-arm64.deb
-Size: 224084
-MD5sum: c74db60d013dddd4fcffcb0e745b3f87
-SHA1: 5d7bb38b005ea1f4cc09590901989f6d5f81dcd3
-SHA256: 4c06285621f00cce670179fef83f844bb636dc81aa91b2b0b5788b04889f59ff
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 576
+Depends: firmware (>= 14.0), mobilesubstrate, com.opa334.altlist, com.opa334.libsandy
+Filename: ./debs/No Redirect_1.9_iphoneos-arm64.deb
+Size: 53956
+MD5sum: c70bba2937ee1ef1ba87964db4ec4a9b
+SHA1: f49990d1e8f8eedf39563c83fa10c5c85bd9684b
+SHA256: 070172fe65f9280df467d0d67ad310a8375047b83fa381b16de8021c198b3bd6
 Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=renetDp
-Description: 修复越狱后Cydia、Sileo等各种软件无法联网的问题
-Tag: purpose::extension
-Author: Tinyapps <tinyapps@qq.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=renetDp
-Dev: tinyapps
-Icon: file:///var/jb/Applications/Renet.app/AppIcon20x20@3x.png
-Name: 连个锤子-越狱联网一键修复[iOS 10.0~16+]
-Sponsor: thebigboss.org <http://thebigboss.org>
+Description: Stop specified apps from redirecting to App Store, Safari or other apps.
+Author: Lessica <82flex@gmail.com>
+Name: No Redirect
+
+Package: com.82flex.singlemutes
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: 82Flex
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.82flex.singlemute
+Filename: ./debs/Single Mute 静音图标_1.4_iphoneos-arm64.deb
+Size: 23796
+MD5sum: 62682f7b5072c1956a8a547da4019b29
+SHA1: 4a42c2fb74b4160586eb355647400a7d59b2dd5b
+SHA256: 7238efb1f289094789b6a8c1f778490b8806e8751457caaf6b8240f0c893cbaa
+Section: Tweaks
+Description: 状态栏左上角显示静音图标
+ * Just a single mute icon on the status bar of iOS.
+Author: 82Flex
+Icon: https://TrollStoreX.Github.io/sileodepiction/SingleMute/icon.png
+Name: Single Mute 静音图标
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/SingleMute/js.json
+
+Package: com.classickeyboardxs-susubody
+Version: 1.1-8
+Architecture: iphoneos-arm64
+Maintainer: 苏苏
+Installed-Size: 1060
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.classickeyboardxs-susubody_1.1-8_iphoneos-arm64.deb
+Size: 233540
+MD5sum: 2b27f0a23f009bff470d594013871499
+SHA1: 77dceab179a00cb9375a29208f2849377ea3930c
+SHA256: a16a6aac8e865d3f6376aa8a6c438f8b688815465f5f93d7f9f045ab54792479
+Section: 系统
+Description: 自定义键盘底部高度，地球底部高度等
+Author: Netskao
+Name: classickeyboardxs
+Sponsor: 苏苏
+
+Package: com.exile90.icleanerpros
+Version: 7.10.0
+Architecture: iphoneos-arm64
+Maintainer: Ivano Bilenchi
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: com.exile90.icleanerpro, org.altervista.exilecom.icleaner
+Filename: ./debs/iCleaner Pro_7.10.0_iphoneos-arm64.deb
+Size: 978624
+MD5sum: 5c835cd226f01e8474b2e994aa7aad07
+SHA1: dbf012991e2e03c4ba11654eab60260e192da129
+SHA256: 02a22aefeb271c4dd3490e2c11841bcb565df26213b83060a6167c7909a357fc
+Section: Bootstrap
+Description: iCleaner Pro
+ * 垃圾清理工具，启动项管理等
+ * The first real iOS system cleanup and management utility
+Author: Ivano Bilenchi
+Icon: https://TrollStoreX.Github.io/sileodepiction/iCleanerPro/icon.png
+Name: iCleaner Pro
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/iCleanerPro/js.json
 
 Package: com.julioverne.spotilife
 Version: 1.8
@@ -42,50 +77,34 @@ Architecture: iphoneos-arm64
 Maintainer: Julio
 Depends: mobilesubstrate
 Filename: ./debs/Spotilife_1.8_iphoneos-arm64.deb
-Size: 104496
-MD5sum: 04fbb3ce473bf9fe2d989f31cc526b55
-SHA1: 252dc76411f2a1721bd9ec822085aa1a53ed207f
-SHA256: 32bb38803a2da3c4a6134397bfd9dcc423ddb425e00c16d5ee5ff5bac0be44a8
+Size: 104696
+MD5sum: a825a13b372518180f891cf88136c7ef
+SHA1: 84e1aa6291ff7c5a4b24dc4875d12ecac38b0b9e
+SHA256: 4b0553a720e5897324695d97de491d0dfaaea53e8a7752db7e843f58a161e29e
 Section: Tweaks
 Homepage: https://twitter.com/ijulioverne
 Description: Spotify Unlimited Skips, Remove ADs, Extreme Quality Stream Unlocked... Requires Spotify App (AppStore)
 Author: julioverne
 Depiction: https://julio.hackyouriphone.org/description.html?id=com.julioverne.spotilife
+Icon: https://cdn.jsdelivr.net/gh/SuSuBody/SuSuBody.github.io@46d88338b612c0477bf3102925adcee91c72c95d/images/spotify.png
 Name: Spotilife
 
-Package: com.susubody.latchkey
-Version: 2.3.2
+Package: com.level3tjg.sposifyfix
+Version: 0.0.6
 Architecture: iphoneos-arm64
-Maintainer: Maxwell Dausch
-Installed-Size: 13476
-Depends: mobilesubstrate, org.thebigboss.libcolorpicker
-Filename: ./debs/com.susubody.latchkey_2.3.2_iphoneos-arm64.deb
-Size: 423248
-MD5sum: 9f0a9d695da6b280b3ba8d246a8a53ef
-SHA1: 262c566dbe004c5c792084acfb9ff55d1413344d
-SHA256: 95f5954c5d9112e45a0dff07e9b3d33ac114fb2c94f61b719d279675722baee1
+Maintainer: level3tjg
+Installed-Size: 188
+Depends: mobilesubstrate (>= 0.9.5000), com.spos
+Filename: ./debs/Sposifyfix_0.0.6_iphoneos-arm64.deb
+Size: 15560
+MD5sum: b805761bb71237be2f4a82562b0b80f7
+SHA1: 9a328169a7db0f8756c4a92f8ee1162523ce2758
+SHA256: c7d4d46d33ba330513b08a728e34226bb239f36d993064ccb375ad98d0c6b097
 Section: Tweaks
-Description: 自定义锁头图标和位置。适配多巴胺，增加汉化，需要libcolorpicker依赖(p2kdev源里有)
-Author: Maxwell Dausch
-Name: Latchkey
-
-Package: com.liuf.jpyj
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: liuf
-Installed-Size: 280
-Depends: mobilesubstrate
-Filename: ./debs/修改系统键盘圆角_0.0.1_iphoneos-arm64.deb
-Size: 3760
-MD5sum: 9443065e49db413f09185e8238c08159
-SHA1: 1aed28f0e54abdb9228665045f6609e303809eaf
-SHA256: d9b36b215521083f9694312d1cca5646cf19980216eadb859e9dc96b5089ff8a
-Section: Tweaks
-Description: 修改系统键盘圆角 Modify the keyboard icon to have rounded corners.
-Author: liuf
-Icon: https://TrollStoreX.Github.io/sileodepiction/keyboard/icon.png
-Name: 修改系统键盘圆角
-Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/keyboard/js.json
+Description: Fix for Sposify for Spotify v8.6.30
+Author: level3tjg
+Icon: https://cdn.jsdelivr.net/gh/SuSuBody/SuSuBody.github.io@46d88338b612c0477bf3102925adcee91c72c95d/images/spotify.png
+Name: Sposify Fix
 
 Package: com.mtac.lynxtwo
 Version: 2.5.3
@@ -108,7 +127,7 @@ Version: 2.6
 Architecture: iphoneos-arm64
 Maintainer: ETHN <ethanwhited2208@gmail.com>
 Depends: firmware (>= 13.0), mobilesubstrate
-Filename: ./com.nahtedetihw.reachplayer-rootless_2.6_iphoneos-arm64.deb
+Filename: ./debs/com.nahtedetihw.reachplayer-rootless_2.6_iphoneos-arm64.deb
 Size: 117316
 MD5sum: 00f8cfb714558956d44413d10f4a3277
 SHA1: 93cb03ca77402d6e8c895ff941f5bd1516e82e03
@@ -126,6 +145,27 @@ Sileodepiction: https://nahtedetihw.github.io/depiction/native/com.nahtedetihw.r
 Someotherentrytocontrol: True
 Tags: compatible_min::ios13.0, compatible_max::ios16.4
 
+Package: com.netskao.awemedisablebars
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 172
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.awemedisablebar
+Filename: ./debs/com.netskao.awemedisablebars_1.1-2_iphoneos-arm64.deb
+Size: 41484
+MD5sum: 0f498c40793224749b7e8f0e63a301c8
+SHA1: f2396be9bebff1070cad29bcfe99b9be7bde12e3
+SHA256: 61930af929f260b40dc4d17450a49c7a7173ba2dd64dc52edb25a872636555b0
+Section: 抖音插件
+Description: 抖音禁用插件
+ * 禁用顶部/底部选项卡按钮
+ * 仅在30.3.0及更高版本上进行测试
+Author: Netskao
+Icon: https://TrollStoreX.Github.io/sileodepiction/AwemeDisableBar/icon.png
+Name: 抖音禁用 AwemeDisableBar
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/AwemeDisableBar/js.json
+
 Package: com.ps.apppad.susu
 Version: 1.1.3
 Architecture: iphoneos-arm64
@@ -134,14 +174,15 @@ Installed-Size: 172
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4), firmware (>= 9.0)
 Conflicts: com.yourepo.isaact1012.requirefullarm64e, com.matrix.requirefull
 Filename: ./debs/Apppad_1.1.3_iphoneos-arm64.deb
-Size: 6552
-MD5sum: 7baa6768e8d8c5efbeb13653ea901b30
-SHA1: ea507340e3aece191b378baa3de43ef3ce4f2f03
-SHA256: fb260b1a3f4cf168f5d1210deb572c458b198f73d4a49fbbf5913b9b35fa8cf0
+Size: 6676
+MD5sum: ac51d2bbfdc999518e6ff00052b7b937
+SHA1: 1ec427e982cfe9f09f28c3811a711c9291018716
+SHA256: d0828912bb37f538c1d4b584319de2ea0f0869674841f692569ac829f4f39de3
 Section: Tweaks
-Description: 在ipad上任意应用强制全屏/强制竖横屏
+Description: 在ipad上任意应用强制全屏/强制竖横屏 还可作用于分屏插件的随机bug
 Author: PoomSmart
-Name: AppPad平板应用强制全屏/竖横屏
+Icon: https://cdn.jsdelivr.net/gh/SuSuBody/SuSuBody.github.io@46d88338b612c0477bf3102925adcee91c72c95d/images/apppad.PNG
+Name: AppPad
 
 Package: com.ps.smoothcursorios13
 Version: 0.0.1
@@ -150,14 +191,15 @@ Maintainer: PoomSmart
 Installed-Size: 168
 Depends: mobilesubstrate, firmware (>= 6.0)
 Conflicts: org.thebigboss.smoothcursor
-Filename: ./debs/SmoothCursor (iOS 13+)_0.0.1_iphoneos-arm64.deb
-Size: 3096
-MD5sum: 9a229449ff6ebeee3edd401b7b69512f
-SHA1: 176011f5b4f8c9321d03745f241c0323c2e0b622
-SHA256: b75df0b8da4e06922d1a48fdeb4d91c17ebd83fc0c53fb5554038fabbf6726b9
+Filename: ./debs/Smoothcursorios13_0.0.1_iphoneos-arm64.deb
+Size: 3200
+MD5sum: 4d85054c0f638b9618cdb1197b6ecf94
+SHA1: 56a855f09c44395f98f45d74b579c8ecaeddd4f4
+SHA256: 80457f6ee8997c6b11e00aba6de81cd3a06882f5ba50fa9c56723b9202c171c7
 Section: Tweaks
-Description: Office 2013-styled cursor animation.
+Description: 仿Office 2013的输入光标
 Author: PoomSmart
+Icon: https://cdn.jsdelivr.net/gh/SuSuBody/SuSuBody.github.io@46d88338b612c0477bf3102925adcee91c72c95d/images/smoothcursor.JPG
 Name: SmoothCursor (iOS 13+)
 
 Package: com.skypain.ccrespring
@@ -186,16 +228,78 @@ Architecture: iphoneos-arm64
 Maintainer: aesthyrica
 Installed-Size: 464
 Depends: mobilesubstrate
-Filename: ./debs/Sposify_8.5.52_iphoneos-arm64.deb
-Size: 68552
-MD5sum: 0cb70d0fb3eb97f7b3c5c3c0f9611abf
-SHA1: fbcd991eedb53dd20b92ba13d2d94699437e9943
-SHA256: f4892b2f1340487da985b983317dcbe700fe0f908b194e6f4b4b4c99d66f9571
+Filename: ./debs/Spos_8.5.52_iphoneos-arm64.deb
+Size: 68312
+MD5sum: 4d8cdca7f60294c7c1c19a366c61b1d5
+SHA1: 8407f479dc16ee6881f729cec8b3f525a304ff32
+SHA256: 36805847abe1f02eff572520f403c8b41e67c26a322c466c217a1f654c916dbc
 Section: Tweaks
 Description: Sposify is a tweak which adds various enhancements to the Spotify application on iOS
 Author: aesthyrica
 Depiction: https://aesthyrica.com/repo/package/com.sposify.client.html
+Icon: https://cdn.jsdelivr.net/gh/SuSuBody/SuSuBody.github.io@46d88338b612c0477bf3102925adcee91c72c95d/images/spotify.png
 Name: Sposify
+
+Package: com.susubody.fps
+Version: 0.0.4.1
+Architecture: iphoneos-arm64
+Maintainer: Brend0n
+Installed-Size: 712
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: ./debs/FPS帧率显示.deb
+Size: 150456
+MD5sum: 397afe0fd8b7239e0430583eec571aa3
+SHA1: 0e6c4b339dca916a5f140f25ba53736d8700da78
+SHA256: 197feeffb5bc199e5206d7d3c423b39054e94e5f99b19c1f58269a045bcb70cc
+Section: 应用调整
+Author: Brend0n
+Name: FPS帧率显示
+
+Package: com.susubody.latchkey
+Version: 2.3.2
+Architecture: iphoneos-arm64
+Maintainer: Maxwell Dausch
+Installed-Size: 13476
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: ./debs/com.susubody.latchkey_2.3.2_iphoneos-arm64.deb
+Size: 423248
+MD5sum: 9f0a9d695da6b280b3ba8d246a8a53ef
+SHA1: 262c566dbe004c5c792084acfb9ff55d1413344d
+SHA256: 95f5954c5d9112e45a0dff07e9b3d33ac114fb2c94f61b719d279675722baee1
+Section: Tweaks
+Description: 自定义锁头图标和位置。适配多巴胺，增加汉化，需要libcolorpicker依赖(p2kdev源里有)
+Author: Maxwell Dausch
+Name: Latchkey
+
+Package: com.susubody.themes
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: SuSuBody
+Filename: ./debs/com.susubody.themes_1.0.1_iphoneos-arm64.deb
+Size: 3986732
+MD5sum: 5ffedba4cab19c77c23d524d9d6c3218
+SHA1: 9493eba16031d043c343e830d6c7409937bd905e
+SHA256: 79f3d8d6c4173b3f0bacd203a369cb7d2d224a54a9691daa34fb5832c4bc114a
+Section: Themes
+Description: 主题备份
+Author: SuSuBody
+Name: 苏苏主题备份
+
+Package: com.wrp1002.nosettingsbadge
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: Wes <wes.hamster@gmail.com>
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.wrp1002.nosettingsbadge_1.1.0_iphoneos-arm64.deb
+Size: 4386
+MD5sum: eb490f9575dac7396e9ab1a332cb7a30
+SHA1: f3d3baf3ed3a07ce5d1593e5c0a98eb1000ceb1e
+SHA256: beeb3283ed1bf25e445f6e855d9a52ce733a68cf296a58fb488ab9a0870fdb2f
+Section: Tweaks
+Description: Remove settings notification badge!
+Author: Wes <wes.hamster@gmail.com>
+Name: NoSettingsBadge
 
 Package: com.yourepo.0xash.fixrepairsystempower
 Version: 0.0.1
@@ -245,142 +349,4 @@ Description: Remove the 'Unknown Part' or 'Parts and Service History' messages i
 Author: 34306
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/replaced.png
 Name: Replaced
-
-
-
-Package: com.82flex.noredirect
-Version: 1.9
-Architecture: iphoneos-arm64
-Maintainer: Lessica <82flex@gmail.com>
-Installed-Size: 576
-Depends: firmware (>= 14.0), mobilesubstrate, com.opa334.altlist, com.opa334.libsandy
-Filename: ./debs/No Redirect_1.9_iphoneos-arm64.deb
-Size: 53956
-MD5sum: c70bba2937ee1ef1ba87964db4ec4a9b
-SHA1: f49990d1e8f8eedf39563c83fa10c5c85bd9684b
-SHA256: 070172fe65f9280df467d0d67ad310a8375047b83fa381b16de8021c198b3bd6
-Section: Tweaks
-Description: Stop specified apps from redirecting to App Store, Safari or other apps.
-Author: Lessica <82flex@gmail.com>
-Name: No Redirect
-
-Package: com.classickeyboardxs-susubody
-Version: 1.1-8
-Architecture: iphoneos-arm64
-Maintainer: 苏苏
-Installed-Size: 1060
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: ./debs/com.classickeyboardxs-susubody_1.1-8_iphoneos-arm64.deb
-Size: 233540
-MD5sum: 2b27f0a23f009bff470d594013871499
-SHA1: 77dceab179a00cb9375a29208f2849377ea3930c
-SHA256: a16a6aac8e865d3f6376aa8a6c438f8b688815465f5f93d7f9f045ab54792479
-Section: 系统
-Description: 自定义键盘底部高度，地球底部高度等
-Author: Netskao
-Name: classickeyboardxs
-Sponsor: 苏苏
-
-Package: com.level3tjg.sposifyfix
-Version: 0.0.6
-Architecture: iphoneos-arm64
-Maintainer: level3tjg
-Installed-Size: 188
-Depends: mobilesubstrate (>= 0.9.5000), com.spos
-Filename: ./debs/Sposify Fix_0.0.6_iphoneos-arm64.deb
-Size: 15456
-MD5sum: c931572582e7c30447783309dc73ff42
-SHA1: c715da980070f6e976b67794fcc4872b48b9dcc8
-SHA256: 43ec8caabb11a7377b682655c8311e43eab3e871211c7f3f9c6cebac11b8ac76
-Section: Tweaks
-Description: Fix for Sposify for Spotify v8.6.30
-Author: level3tjg
-Depiction: https://level3tjg.me/repo/depictions/?p=com.level3tjg.sposifyfix
-Name: Sposify Fix
-
-Package: com.wrp1002.nosettingsbadge
-Version: 1.1.0
-Architecture: iphoneos-arm64
-Maintainer: Wes <wes.hamster@gmail.com>
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.wrp1002.nosettingsbadge_1.1.0_iphoneos-arm64.deb
-Size: 4386
-MD5sum: eb490f9575dac7396e9ab1a332cb7a30
-SHA1: f3d3baf3ed3a07ce5d1593e5c0a98eb1000ceb1e
-SHA256: beeb3283ed1bf25e445f6e855d9a52ce733a68cf296a58fb488ab9a0870fdb2f
-Section: Tweaks
-Description: Remove settings notification badge!
-Author: Wes <wes.hamster@gmail.com>
-Name: NoSettingsBadge
-
-Package: com.susubody.fps
-Version: 0.0.4.1
-Architecture: iphoneos-arm64
-Maintainer: Brend0n
-Installed-Size: 712
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: ./debs/FPS帧率显示.deb
-Size: 150456
-MD5sum: 397afe0fd8b7239e0430583eec571aa3
-SHA1: 0e6c4b339dca916a5f140f25ba53736d8700da78
-SHA256: 197feeffb5bc199e5206d7d3c423b39054e94e5f99b19c1f58269a045bcb70cc
-Section: 应用调整
-Author: Brend0n
-Name: FPS帧率显示
-
-Package: com.82flex.singlemutes
-Version: 1.4
-Architecture: iphoneos-arm64
-Maintainer: 82Flex
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.82flex.singlemute
-Filename: ./debs/Single Mute 静音图标_1.4_iphoneos-arm64.deb
-Size: 23796
-MD5sum: 62682f7b5072c1956a8a547da4019b29
-SHA1: 4a42c2fb74b4160586eb355647400a7d59b2dd5b
-SHA256: 7238efb1f289094789b6a8c1f778490b8806e8751457caaf6b8240f0c893cbaa
-Section: Tweaks
-Description: 状态栏左上角显示静音图标
- * Just a single mute icon on the status bar of iOS.
-Author: 82Flex
-Icon: https://TrollStoreX.Github.io/sileodepiction/SingleMute/icon.png
-Name: Single Mute 静音图标
-Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/SingleMute/js.json
-
-Package: com.exile90.icleanerpros
-Version: 7.10.0
-Architecture: iphoneos-arm64
-Maintainer: Ivano Bilenchi
-Depends: firmware (>= 4.0), findutils, apt | apt7
-Conflicts: com.exile90.icleanerpro, org.altervista.exilecom.icleaner
-Filename: ./debs/iCleaner Pro_7.10.0_iphoneos-arm64.deb
-Size: 978624
-MD5sum: 5c835cd226f01e8474b2e994aa7aad07
-SHA1: dbf012991e2e03c4ba11654eab60260e192da129
-SHA256: 02a22aefeb271c4dd3490e2c11841bcb565df26213b83060a6167c7909a357fc
-Section: Bootstrap
-Description: iCleaner Pro
- * 垃圾清理工具，启动项管理等
- * The first real iOS system cleanup and management utility
-Author: Ivano Bilenchi
-Icon: https://TrollStoreX.Github.io/sileodepiction/iCleanerPro/icon.png
-Name: iCleaner Pro
-Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/iCleanerPro/js.json
-
-Package: com.susubody.themes
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: SuSuBody
-Filename: ./debs/com.susubody.themes_1.0.1_iphoneos-arm64.deb
-Size: 3985468
-MD5sum: 0fbc47481471111842cdb888279e4a8c
-SHA1: 751abceef07f4b0e997286f84bdf2a92a6b2a9fe
-SHA256: ae9dfa078dffebc4ad81c7ba16e0011302034027a9ac9f5687d355cbad327c25
-Section: Themes
-Description: 主题备份
-Author: SuSuBody
-Name: 苏苏主题备份
-
 
